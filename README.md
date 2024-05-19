@@ -1,6 +1,6 @@
 # PromptTriad
 
-**PromptTriad** is a Go API hosted on Cloud Run that leverages three competing AI models (OpenAI, Gemini, and LLama) to collaboratively engineer and optimize the best possible prompt from any given input.
+**PromptTriad** is a Go API hosted on Cloud Run that leverages three competing AI models (OpenAI, Gemini, and Coherence) to collaboratively engineer and optimize the best possible prompt from any given input.
 
 ## Project Status
 
@@ -8,7 +8,7 @@
 
 ## Major Goals/Milestones
 
-- [ ] Integrate OpenAI, Gemini, and LLama APIs
+- [ ] Integrate OpenAI, Gemini, and Coherence APIs
 - [ ] Implement response evaluation and selection logic
 - [ ] Deploy on Google Cloud Run
 - [ ] Add authentication and rate limiting
@@ -33,7 +33,7 @@ curl -X POST http://localhost:8080/engineer-prompt -H "Content-Type: application
 {
   "openai_response": "Response from OpenAI",
   "gemini_response": "Response from Gemini",
-  "llama_response": "Response from LLama",
+  "coherence_response": "Response from Coherence",
   "best_response": "Selected best response"
 }
 ```

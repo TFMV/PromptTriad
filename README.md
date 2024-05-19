@@ -10,16 +10,16 @@
 
 ## Major Goals/Milestones
 
-- [ ] Integrate OpenAI, Gemini, and Cohere APIs
-- [ ] Implement response evaluation and selection logic
-- [ ] Deploy on Google Cloud Run
+- [x] Integrate OpenAI, Gemini, and Cohere APIs
+- [x] Implement response evaluation and selection logic
+- [x] Deploy on Google Cloud Run
 - [ ] Add authentication and rate limiting
 - [ ] Implement comprehensive logging and monitoring
 
 ## How to Use
 
 1. Clone the repository
-2. Set the required environment variables
+2. Set the required environment variables (you will need API keys)
 3. Run the API server
 4. Send a POST request to `/engineer-prompt` with your prompt input
 

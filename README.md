@@ -2,6 +2,8 @@
 
 **PromptTriad** is a Go API hosted on Cloud Run that leverages three competing AI models (OpenAI, Gemini, and Coherence) to collaboratively engineer and optimize the best possible prompt from any given input.
 
+![PromptTriad](assets/triad.webp)
+
 ## Project Status
 
 🚧 This project is currently under construction. 🚧
